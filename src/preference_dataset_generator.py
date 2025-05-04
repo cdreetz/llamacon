@@ -4,7 +4,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 class AutomaticPreferenceDatasetGenerator:
-    def __init__(self, model_name="meta-llama/Llama-4-Scout-17B-16E-Instruct"):
+    def __init__(self, model_name="meta-llama/Llama-3.1-70B-Instruct"):
         """
         Initialize the dataset generator with a model that can understand feedback
         and generate contrasting examples.
